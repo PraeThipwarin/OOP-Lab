@@ -1,0 +1,6 @@
+observations
+- threads ปริ้นตัวเลขออกมาครบ 1-100 ทุก thread
+- ลำดับของ threads ที่ปริ้นตัวเลขออกมาไม่แน่นอน
+
+infer how multithreading works
+- multithreading ใน Java ทำงานพร้อมกัน แต่ลำดับการทำงานอาจเปลี่ยนไปทุกครั้งที่รันโปรแกรม
