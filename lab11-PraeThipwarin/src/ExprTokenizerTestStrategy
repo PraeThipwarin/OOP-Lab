@@ -1,0 +1,11 @@
+hasNextToken
+- เช็ค NextToken ถ้ามีจะ return true ถ้าไม่มีจะ return false
+
+peek
+- return ค่าของ token โดยไม่ลบค่า token นั้นออก ถ้าไม่มี toden ต้อง throw NoSuchElementException
+
+consume
+- return ค่าของ token โดยลบค่า token นั้นออกด้วย ถ้าไม่มี toden ต้อง throw NoSuchElementException
+- เมื่อ consume ทั้งหมดแล้ว จะต้องไม่เหลือ token ใดๆอีก
+- ถ้ามี token ที่ไม่ถูกต้อง(เป็นตัวอักษรหรือ operation หรือสัญลักษณ์ที่ไม่ถูกค้อง) ต้อง throw NoSuchElementException
+
